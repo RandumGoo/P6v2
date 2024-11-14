@@ -44,7 +44,7 @@ export async function getBooks() {
     const books = formatBooks(response.data);
     return books;
   } catch (err) {
-    console.error(err);
+    console.error('err');
     return [];
   }
 }
