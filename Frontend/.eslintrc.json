@@ -17,5 +17,11 @@
         "react"
     ],
     "rules": {
+        "linebreak-style":["error", "windows"],
+        "quotes": ["error", "single", { "allowTemplateLiterals": true, "avoidEscape": true }],
+        "comma-dangle": ["error", "only-multiline"]
+
     }
+    
+
 }
